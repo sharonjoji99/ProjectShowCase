@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Project-ShowCase</title>
+    <link rel="stylesheet" href="main.css">
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    
+   
+<!-- TO ViEW FULLSCREEN -->
+<body>
+    <section>
+        <div class="title"><span>Jack Salfia</span><span>Graphic Designer and<a target="_blanck" href="salfia.com">Web Developer</a></span></div>
+      </section>
+<div class="nav">
+    <input type="checkbox" class="nav__input" id="nav_input">
+    <div class="persp" id="persp1" onclick="persp()"><i class="material-icons">&#xE3E0;</i></div>
+    <div class="nav__content">
+        <div class="menu">
+            <ul class="list-menu">
+                <li class="title-menu">Navigation</li>
+                <li class="limenu">Home<span class="bar"></span></li>
+                <li class="limenu">My projects<span class="bar"></span></li>
+                <li class="limenu">Codepen<span class="bar"></span></li>
+                <li class="limenu">Contact<span class="bar"></span></li>
+            </ul>
+        </div>
+        <ul class="nav__ul">
+            <div class="closebutton"><i class="material-icons" onclick="closewindow()">&#xE14C;</i></div>
+
+            <li class="nav__list project1" id="project1" data-attr="primo">   
+                <div class="cheader">           
+                    <h1>Project 1</h1>
+                    <div class="more" id="more1" data-attr="primo"><i class="material-icons morem">keyboard_arrow_down</i></div>
+                </div>
+                <div class="ctesto paper1">
+                    <input type="checkbox" class="wind_input" id="windows_input">
+                    <div class="box-text">
+                        <div class="closebar"><label class="resizela" for="windows_input"><i class="material-icons">&#xE85B;</i></label><i class="material-icons closeincon" onclick="closer()">&#xE14C;</i></div>
+                        <div class="intestazione"></div>
+                        <p>
+                            <span class="pro1"><img class="smallint" src="http://i.imgbox.com/dLZ81U3A.png">Lorem ipsum<br></span><br>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mollis ipsum a ultrices sollicitudin. Vivamus sit amet diam a tortor sollicitudin ornare eget vitae ante. Maecenas commodo risus et turpis tincidunt ultricies. Sed venenatis metus vitae justo pharetra laoreet. Praesent aliquet, justo eu tempor fringilla, metus ipsum scelerisque mi, non posuere ligula arcu vitae orci. Mauris vitae lorem lectus. Donec bibendum turpis ut tortor semper feugiat. Integer eget gravida quam. Cras luctus mi nec condimentum suscipit. Etiam cursus nisl eget libero dignissim, lacinia venenatis leo accumsan. Aenean dignissim dolor eros, at volutpat erat elementum eu. Nullam semper purus risus, et gravida dui facilisis quis. Etiam pretium lectus diam, ac lacinia purus lacinia in. Aliquam et finibus mi. Praesent consectetur at lectus vitae maximus. <br><br>
+
+                            Nulla facilisi. Aliquam erat volutpat. Phasellus ut elit mauris. Donec eu congue diam. Nam purus nisi, bibendum a tristique in, imperdiet at ex. Nunc fermentum massa quis orci blandit vulputate. In tempor, nunc ac pellentesque fermentum, urna tellus aliquet lacus, ac malesuada tellus magna at leo. Aenean vestibulum nibh et lectus blandit tempor. <br>
+
+                            Integer nec efficitur odio. Phasellus felis augue, vehicula eget libero nec, scelerisque elementum sapien. Etiam risus lorem, aliquet nec ornare id, consequat at urna. Quisque iaculis nisl tempor, cursus metus id, facilisis erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin id venenatis velit, vel egestas ante. Pellentesque pellentesque eu leo a aliquam. Donec ullamcorper eu ante eu rutrum. Nulla laoreet tempus vulputate. Aliquam eu fermentum lectus, in consectetur lacus. Vestibulum scelerisque pellentesque nulla. Quisque egestas, lectus nec aliquet cursus, elit urna egestas nibh, faucibus fringilla risus massa vitae mauris. <br><br>
+
+                            Cras congue, sem sit amet gravida suscipit, nibh sem porta metus, sed cursus justo lorem nec leo. Mauris leo sem, vulputate in orci auctor, iaculis pharetra nisl. Nulla accumsan gravida justo vel tincidunt. Nam dolor ex, vestibulum vel tincidunt quis, varius maximus enim. Praesent mattis ornare nisi id ornare. Proin id tortor erat. Phasellus bibendum lobortis sapien vel efficitur. <br>Etiam at dapibus dolor. Aenean sagittis posuere magna, id maximus felis suscipit id. Integer dictum nisi eu justo gravida placerat. Suspendisse eleifend tellus et ex tincidunt finibus et ut leo. Mauris fermentum leo ut urna tristique, ac mollis libero malesuada. Praesent tempor tortor non metus ultricies vehicula. Curabitur enim metus, cursus ut ex in, pharetra rhoncus massa. 
+                        </p>
+                    </div>
+                </div>
+
+            </li>
+            <li class="nav__list project2" id="project2" data-attr="secondo">
+                <div class="cheader">
+                    <h1>Project 2</h1>
+                    <div class="more" id="more2" data-attr="secondo"><i class="material-icons morem">keyboard_arrow_down</i></div>
+                </div>
+                <div class="ctesto paper2">
+                    <input type="checkbox" class="wind_input" id="windows_input2">
+                    <div class="box-text">
+                        <div class="closebar"><label class="resizela" for="windows_input2"><i class="material-icons">&#xE85B;</i></label><i class="material-icons closeincon" onclick="closer()">&#xE14C;</i></div>
+                        <p>
+                            <span class="pro2">Project 2<br></span>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mollis ipsum a ultrices sollicitudin. Vivamus sit amet diam a tortor sollicitudin ornare eget vitae ante. Maecenas commodo risus et turpis tincidunt ultricies. Sed venenatis metus vitae justo pharetra laoreet. Praesent aliquet, justo eu tempor fringilla, metus ipsum scelerisque mi, non posuere ligula arcu vitae orci. Mauris vitae lorem lectus. Donec bibendum turpis ut tortor semper feugiat. Integer eget gravida quam. Cras luctus mi nec condimentum suscipit. Etiam cursus nisl eget libero dignissim, lacinia venenatis leo accumsan. Aenean dignissim dolor eros, at volutpat erat elementum eu. Nullam semper purus risus, et gravida dui facilisis quis. Etiam pretium lectus diam, ac lacinia purus lacinia in. Aliquam et finibus mi. Praesent consectetur at lectus vitae maximus. <br><br>
+
+                            Nulla facilisi. Aliquam erat volutpat. Phasellus ut elit mauris. Donec eu congue diam. Nam purus nisi, bibendum a tristique in, imperdiet at ex. Nunc fermentum massa quis orci blandit vulputate. In tempor, nunc ac pellentesque fermentum, urna tellus aliquet lacus, ac malesuada tellus magna at leo. Aenean vestibulum nibh et lectus blandit tempor. <br>
+
+                            Integer nec efficitur odio. Phasellus felis augue, vehicula eget libero nec, scelerisque elementum sapien. Etiam risus lorem, aliquet nec ornare id, consequat at urna. Quisque iaculis nisl tempor, cursus metus id, facilisis erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin id venenatis velit, vel egestas ante. Pellentesque pellentesque eu leo a aliquam. Donec ullamcorper eu ante eu rutrum. Nulla laoreet tempus vulputate. Aliquam eu fermentum lectus, in consectetur lacus. Vestibulum scelerisque pellentesque nulla. Quisque egestas, lectus nec aliquet cursus, elit urna egestas nibh, faucibus fringilla risus massa vitae mauris. <br><br>
+
+                            Cras congue, sem sit amet gravida suscipit, nibh sem porta metus, sed cursus justo lorem nec leo. Mauris leo sem, vulputate in orci auctor, iaculis pharetra nisl. Nulla accumsan gravida justo vel tincidunt. Nam dolor ex, vestibulum vel tincidunt quis, varius maximus enim. Praesent mattis ornare nisi id ornare. Proin id tortor erat. Phasellus bibendum lobortis sapien vel efficitur. <br>Etiam at dapibus dolor. Aenean sagittis posuere magna, id maximus felis suscipit id. Integer dictum nisi eu justo gravida placerat. Suspendisse eleifend tellus et ex tincidunt finibus et ut leo. Mauris fermentum leo ut urna tristique, ac mollis libero malesuada. Praesent tempor tortor non metus ultricies vehicula. Curabitur enim metus, cursus ut ex in, pharetra rhoncus massa. 
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li class="nav__list project3" id="project3" data-attr="terzo">
+                <div class="cheader">
+                    <h1>Project 3</h1>
+                    <div class="more" id="more3" data-attr="terzo"><i class="material-icons morem">keyboard_arrow_down</i></div>
+                </div>
+                <div class="ctesto paper3">
+                    <input type="checkbox" class="wind_input" id="windows_input3">
+                    <div class="box-text">
+                        <div class="closebar"><label class="resizela" for="windows_input3"><i class="material-icons">&#xE85B;</i></label><i class="material-icons closeincon" onclick="closer()">&#xE14C;</i></div>
+                        <p>
+                            <span class="pro3">Project 3<br></span>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mollis ipsum a ultrices sollicitudin. Vivamus sit amet diam a tortor sollicitudin ornare eget vitae ante. Maecenas commodo risus et turpis tincidunt ultricies. Sed venenatis metus vitae justo pharetra laoreet. Praesent aliquet, justo eu tempor fringilla, metus ipsum scelerisque mi, non posuere ligula arcu vitae orci. Mauris vitae lorem lectus. Donec bibendum turpis ut tortor semper feugiat. Integer eget gravida quam. Cras luctus mi nec condimentum suscipit. Etiam cursus nisl eget libero dignissim, lacinia venenatis leo accumsan. Aenean dignissim dolor eros, at volutpat erat elementum eu. Nullam semper purus risus, et gravida dui facilisis quis. Etiam pretium lectus diam, ac lacinia purus lacinia in. Aliquam et finibus mi. Praesent consectetur at lectus vitae maximus. <br><br>
+
+                            Nulla facilisi. Aliquam erat volutpat. Phasellus ut elit mauris. Donec eu congue diam. Nam purus nisi, bibendum a tristique in, imperdiet at ex. Nunc fermentum massa quis orci blandit vulputate. In tempor, nunc ac pellentesque fermentum, urna tellus aliquet lacus, ac malesuada tellus magna at leo. Aenean vestibulum nibh et lectus blandit tempor. <br>
+
+                            Integer nec efficitur odio. Phasellus felis augue, vehicula eget libero nec, scelerisque elementum sapien. Etiam risus lorem, aliquet nec ornare id, consequat at urna. Quisque iaculis nisl tempor, cursus metus id, facilisis erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin id venenatis velit, vel egestas ante. Pellentesque pellentesque eu leo a aliquam. Donec ullamcorper eu ante eu rutrum. Nulla laoreet tempus vulputate. Aliquam eu fermentum lectus, in consectetur lacus. Vestibulum scelerisque pellentesque nulla. Quisque egestas, lectus nec aliquet cursus, elit urna egestas nibh, faucibus fringilla risus massa vitae mauris. <br><br>
+
+                            Cras congue, sem sit amet gravida suscipit, nibh sem porta metus, sed cursus justo lorem nec leo. Mauris leo sem, vulputate in orci auctor, iaculis pharetra nisl. Nulla accumsan gravida justo vel tincidunt. Nam dolor ex, vestibulum vel tincidunt quis, varius maximus enim. Praesent mattis ornare nisi id ornare. Proin id tortor erat. Phasellus bibendum lobortis sapien vel efficitur. <br>Etiam at dapibus dolor. Aenean sagittis posuere magna, id maximus felis suscipit id. Integer dictum nisi eu justo gravida placerat. Suspendisse eleifend tellus et ex tincidunt finibus et ut leo. Mauris fermentum leo ut urna tristique, ac mollis libero malesuada. Praesent tempor tortor non metus ultricies vehicula. Curabitur enim metus, cursus ut ex in, pharetra rhoncus massa. 
+                        </p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <label class="nav__button" for="nav_input">
+    </label>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
