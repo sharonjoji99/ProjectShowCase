@@ -10,6 +10,8 @@ function persp() {
         $(".project1").css("transform","rotateX(-20deg)");
         $(".project2").css("transform","rotateX(-20deg) translate3d(0,-90%,0)");
         $(".project3").css("transform","rotateX(-20deg) translate3d(0,-180%,0)");
+        $(".project3").css("transform","rotateX(-20deg) translate3d(0,-90%,0)");
+        
         $(".cheader h1").css("top","10px").css("font-size","35px");
         b++;
         multi = true;
@@ -33,6 +35,7 @@ function nopersp(){
     $(".project1").css("transform","rotateX(0deg)");
     $(".project2").css("transform","rotateX(0deg) translate3d(0,0%,0)");
     $(".project3").css("transform","rotateX(0deg) translate3d(0,0%,0)");
+    $(".project4").css("transform","rotateX(0deg) translate3d(0,0%,0)");
     $(".cheader h1").css("vertical-align","middle").css("font-size","45px");
     closer();
     multi = false;
@@ -59,6 +62,9 @@ $(document).ready(function(){
             $(".paper2").css("top","0%");
         }
         else if(c == "terzo"){
+            $(".paper3").css("top","0%");
+        }
+        else if(c == "quatre"){
             $(".paper3").css("top","0%");
         }
     });
@@ -91,12 +97,18 @@ $(document).ready(function(){
             $("#project1").css('height','0%');
             more = document.getElementById("more2");
         }
-        else{
+        else if (a=="terzo"){
             $("#project3").css('height', '100%');
             $("#project2").css('height', '0%');
             $("#project1").css('height','0%');
             more = document.getElementById("more3");
-        }   
+        }   else{
+            $("#project3").css('height', '100%');
+            $("#project3").css('height', '100%');
+            $("#project2").css('height', '0%');
+            $("#project1").css('height','0%');
+            more = document.getElementById("more3");
+        }
         more.classList.remove("bounceanimation");
         more.offsetWidth = more.offsetWidth;
         more.classList.add("bounceanimation");
@@ -114,7 +126,7 @@ function closer(){
 function closewindow(){
     $('.closebutton').hide();
     $(".more").hide();
-    $(".nav__list").css("height","33.3%");
+    $(".nav__list").css("height","20%");
     $(".ctesto").css('top','110%');
 }
 
