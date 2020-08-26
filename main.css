@@ -6,6 +6,28 @@
 	 margin: 0;
 	 font-family: 'Roboto';
 }
+
+.heading4 h3 {
+	margin-top: 20px;
+
+	display: -webkit-flex;
+	display: flex;
+	width: 100%;
+	margin-left: 60px;
+	font-size: 1.5em;
+	letter-spacing: 2px;
+	font-weight: 100;
+  }
+  
+  .heading4 h3:after {
+	-webkit-flex: 3;
+	-flex:3;
+	display: inline-block;
+	content: "";
+	height: 1px;
+	background: #999;
+	margin: auto 0 auto 20px;
+  }
  .nav {
 	 position: relative;
 	 overflow: hidden;
@@ -148,6 +170,7 @@
 	 font-weight: 200;
 	 margin-top: 10px;
 }
+
  .nav__list .cheader .more {
 	 width: 50px;
 	 height: 50px;
@@ -208,6 +231,9 @@
 	 left: 0;
 	 position: absolute;
 }
+.secondText{
+	padding-top: 10px !important;
+}
  .nav__list .ctesto .box-text p {
 	 font-family: 'Roboto';
 	 font-weight: 300;
@@ -215,6 +241,7 @@
 	 color: black;
 	 text-align: justify;
 	 padding: 60px;
+	 padding-bottom: 20px !important;
 }
  .nav__list .ctesto .box-text p span {
 	 font-size: 30px;
