@@ -65,7 +65,7 @@ $(document).ready(function(){
             $(".paper3").css("top","0%");
         }
         else if(c == "quatre"){
-            $(".paper3").css("top","0%");
+            $(".paper4").css("top","0%");
         }
     });
 
@@ -103,11 +103,11 @@ $(document).ready(function(){
             $("#project1").css('height','0%');
             more = document.getElementById("more3");
         }   else{
-            $("#project3").css('height', '100%');
-            $("#project3").css('height', '100%');
+            $("#project4").css('height', '100%');
+            $("#project3").css('height', '0%');
             $("#project2").css('height', '0%');
             $("#project1").css('height','0%');
-            more = document.getElementById("more3");
+            more = document.getElementById("more4");
         }
         more.classList.remove("bounceanimation");
         more.offsetWidth = more.offsetWidth;
