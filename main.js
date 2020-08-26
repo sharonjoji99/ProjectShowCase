@@ -10,7 +10,8 @@ function persp() {
         $(".project1").css("transform","rotateX(-20deg)");
         $(".project2").css("transform","rotateX(-20deg) translate3d(0,-90%,0)");
         $(".project3").css("transform","rotateX(-20deg) translate3d(0,-180%,0)");
-        $(".project3").css("transform","rotateX(-20deg) translate3d(0,-90%,0)");
+        $(".project4").css("transform","rotateX(-20deg) translate3d(0,-90%,0)");
+        $(".project5").css("transform","rotateX(-20deg) translate3d(0,-180%,0)");
         
         $(".cheader h1").css("top","10px").css("font-size","35px");
         b++;
@@ -35,6 +36,7 @@ function nopersp(){
     $(".project1").css("transform","rotateX(0deg)");
     $(".project2").css("transform","rotateX(0deg) translate3d(0,0%,0)");
     $(".project3").css("transform","rotateX(0deg) translate3d(0,0%,0)");
+    $(".project4").css("transform","rotateX(0deg) translate3d(0,0%,0)");
     $(".project4").css("transform","rotateX(0deg) translate3d(0,0%,0)");
     $(".cheader h1").css("vertical-align","middle").css("font-size","45px");
     closer();
@@ -66,6 +68,8 @@ $(document).ready(function(){
         }
         else if(c == "quatre"){
             $(".paper4").css("top","0%");
+        }else if(c == "cinq"){
+            $(".paper5").css("top","0%");
         }
     });
 
@@ -102,12 +106,19 @@ $(document).ready(function(){
             $("#project2").css('height', '0%');
             $("#project1").css('height','0%');
             more = document.getElementById("more3");
-        }   else{
+        }else if(a=="quatre"){
             $("#project4").css('height', '100%');
             $("#project3").css('height', '0%');
             $("#project2").css('height', '0%');
             $("#project1").css('height','0%');
             more = document.getElementById("more4");
+        }else{
+            $("#project5").css('height', '100%');
+            $("#project4").css('height', '0%');
+            $("#project3").css('height', '0%');
+            $("#project2").css('height', '0%');
+            $("#project1").css('height','0%');
+            more = document.getElementById("more5");
         }
         more.classList.remove("bounceanimation");
         more.offsetWidth = more.offsetWidth;
