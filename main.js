@@ -10,8 +10,8 @@ function persp() {
         $(".project1").css("transform","rotateX(-20deg)");
         $(".project2").css("transform","rotateX(-20deg) translate3d(0,-90%,0)");
         $(".project3").css("transform","rotateX(-20deg) translate3d(0,-180%,0)");
-        $(".project4").css("transform","rotateX(-20deg) translate3d(0,-90%,0)");
-        $(".project5").css("transform","rotateX(-20deg) translate3d(0,-180%,0)");
+        $(".project4").css("transform","rotateX(-20deg) translate3d(0,-270%,0)");
+        $(".project5").css("transform","rotateX(-20deg) translate3d(0,-360%,0)");
         
         $(".cheader h1").css("top","10px").css("font-size","35px");
         b++;
@@ -37,7 +37,7 @@ function nopersp(){
     $(".project2").css("transform","rotateX(0deg) translate3d(0,0%,0)");
     $(".project3").css("transform","rotateX(0deg) translate3d(0,0%,0)");
     $(".project4").css("transform","rotateX(0deg) translate3d(0,0%,0)");
-    $(".project4").css("transform","rotateX(0deg) translate3d(0,0%,0)");
+    $(".project5").css("transform","rotateX(0deg) translate3d(0,0%,0)");
     $(".cheader h1").css("vertical-align","middle").css("font-size","45px");
     closer();
     multi = false;

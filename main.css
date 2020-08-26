@@ -222,7 +222,7 @@
 }
  .nav__list .ctesto .box-text:after {
 	 content: '';
-	 background-image: url("http://i.imgbox.com/9sH6mGbk.jpg");
+	 
 	 background-attachment: fixed;
 	 opacity: 0.1;
 	 width: 100%;
@@ -251,7 +251,7 @@
  .nav__list .ctesto .box-text .intestazione {
 	 height: 280px;
 	 width: 100%;
-	 background: url("http://i.imgbox.com/9sH6mGbk.jpg");
+	
 	 background-size: 100%;
 }
  .nav__button {
@@ -419,6 +419,14 @@
  .project3 {
 	 background: #039be5;
 }
+
+.project4 {
+	background: #8bb38d;
+
+}
+.project5 {
+	background: #535096;
+}
  .smallint {
 	 width: 50px;
 	 margin-top: 20px;
@@ -503,6 +511,15 @@
  .project3:hover {
 	 padding-bottom: 10px;
 }
+
+.project4:hover {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.project5:hover {
+	padding-bottom: 10px;
+}
+
 a {
     color: inherit;
     text-decoration: inherit;
